@@ -1,0 +1,41 @@
+// RULES:
+// p -> x
+// i -> e
+// f -> h
+// v -> r
+// y -> o
+// l -> b
+// m -> a
+// e -> i
+// u -> s
+// z -> n
+// c -> k
+// q -> w
+// h -> f
+// n -> z
+// j -> d
+// b -> l
+// r -> v
+// x -> p
+// o -> y
+// k -> c
+// a -> m
+// s -> u
+// w -> q
+bob works for the famous apple company, he has been a computer programmer
+for quite a long time. his favorite language is cobol, but he can also
+program in the modern language python. he is an active learner when needed.
+bob thinks that generating and storing a random salt value for each userid
+is a waste. instead, he is proposing that his system administrators use a
+cryptographic hash of the userid as its salts choices certainly impacts the
+salted passwords. bob has quite a few pet animals, one dog, one zebra and
+quite a few snakes, includeing two pythons. he loves the zebra and the dog,
+but he hates snakes and especially pythons. occasionally, he brings a box of
+chocolates to feed the zebra. his kids, on the other hand, loves snakes
+and pythons.
+
+this is more on bob and his family. bob has four kids, three
+daughters and one son. his son is zealous about indoor sports,
+especially badminton. but all his daughters love outdoor sports,
+except indoor swimming. i have to say that bob is a family guy and
+is quite trustable.

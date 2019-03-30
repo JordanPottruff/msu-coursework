@@ -1,0 +1,150 @@
+Created link Link H1-0 - RA-1
+Created link Link H2-0 - RA-0
+Created link Link RA-2 - RB-0
+Created link Link RA-3 - RC-0
+Created link Link RB-1 - RD-1
+Created link Link RC-1 - RD-0
+Created link Link RD-2 - H3-0
+H1: Starting
+H2: Starting
+H3: Starting
+RA: Starting
+RB: Starting
+RC: Starting
+RD: Starting
+Network: Starting
+H1: sending packet "000H3MESSAGE_0_FROM_H1" with priority 0
+H1: sending packet "000H3MESSAGE_1_FROM_H1" with priority 1
+H1: sending packet "000H3MESSAGE_2_FROM_H1" with priority 0
+H2: sending packet "000H3MESSAGE_0_FROM_H2" with priority 0
+H2: sending packet "000H3MESSAGE_1_FROM_H2" with priority 1
+H2: sending packet "000H3MESSAGE_2_FROM_H2" with priority 0
+Link H1-0 - RA-1: transmitting frame "N000H3MESSAGE_0_FROM_H1" on H1 0 -> RA 1 
+ - seconds until the next available time 0.367999
+ - queue size 2
+Link H2-0 - RA-0: transmitting frame "N000H3MESSAGE_0_FROM_H2" on H2 0 -> RA 0 
+ - seconds until the next available time 0.368000
+ - queue size 2
+RA: encapsulated packet "000H3MESSAGE_0_FROM_H1" as MPLS frame "00000000000000000001000H3MESSAGE_0_FROM_H1"
+RA: processing MPLS frame "00000000000000000001000H3MESSAGE_0_FROM_H1"
+RA: forwarding frame "M00000000000000000002000H3MESSAGE_0_FROM_H1" from interface 1 to 2
+RA: encapsulated packet "000H3MESSAGE_0_FROM_H2" as MPLS frame "00000000000000000001000H3MESSAGE_0_FROM_H2"
+RA: processing MPLS frame "00000000000000000001000H3MESSAGE_0_FROM_H2"
+RA: forwarding frame "M00000000000000000002000H3MESSAGE_0_FROM_H2" from interface 0 to 3
+Link RA-3 - RC-0: transmitting frame "M00000000000000000002000H3MESSAGE_0_FROM_H2" on RA 3 -> RC 0 
+ - seconds until the next available time 0.687999
+ - queue size 0
+Link RA-2 - RB-0: transmitting frame "M00000000000000000002000H3MESSAGE_0_FROM_H1" on RA 2 -> RB 0 
+ - seconds until the next available time 0.687999
+ - queue size 0
+Link H1-0 - RA-1: transmitting frame "N000H3MESSAGE_1_FROM_H1" on H1 0 -> RA 1 
+ - seconds until the next available time 0.367999
+ - queue size 1
+RB: processing MPLS frame "00000000000000000002000H3MESSAGE_0_FROM_H1"
+RB: forwarding frame "M00000000000000000003000H3MESSAGE_0_FROM_H1" from interface 0 to 1
+RC: processing MPLS frame "00000000000000000002000H3MESSAGE_0_FROM_H2"
+RC: forwarding frame "M00000000000000000003000H3MESSAGE_0_FROM_H2" from interface 0 to 1
+RA: encapsulated packet "000H3MESSAGE_1_FROM_H1" as MPLS frame "00000000000000000001000H3MESSAGE_1_FROM_H1"
+RA: processing MPLS frame "00000000000000000001000H3MESSAGE_1_FROM_H1"
+RA: forwarding frame "M00000000000000000002000H3MESSAGE_1_FROM_H1" from interface 1 to 2
+Link H2-0 - RA-0: transmitting frame "N000H3MESSAGE_1_FROM_H2" on H2 0 -> RA 0 
+ - seconds until the next available time 0.367997
+ - queue size 1
+Link RA-2 - RB-0: transmitting frame "M00000000000000000002000H3MESSAGE_1_FROM_H1" on RA 2 -> RB 0 
+ - seconds until the next available time 0.687999
+ - queue size 0
+Link RB-1 - RD-1: transmitting frame "M00000000000000000003000H3MESSAGE_0_FROM_H1" on RB 1 -> RD 1 
+ - seconds until the next available time 0.687999
+ - queue size 0
+Link RC-1 - RD-0: transmitting frame "M00000000000000000003000H3MESSAGE_0_FROM_H2" on RC 1 -> RD 0 
+ - seconds until the next available time 0.687999
+ - queue size 0
+RA: encapsulated packet "000H3MESSAGE_1_FROM_H2" as MPLS frame "00000000000000000001000H3MESSAGE_1_FROM_H2"
+RA: processing MPLS frame "00000000000000000001000H3MESSAGE_1_FROM_H2"
+RA: forwarding frame "M00000000000000000002000H3MESSAGE_1_FROM_H2" from interface 0 to 3
+Link RA-3 - RC-0: transmitting frame "M00000000000000000002000H3MESSAGE_1_FROM_H2" on RA 3 -> RC 0 
+ - seconds until the next available time 0.687998
+ - queue size 0
+RC: processing MPLS frame "00000000000000000002000H3MESSAGE_1_FROM_H2"
+RC: forwarding frame "M00000000000000000003000H3MESSAGE_1_FROM_H2" from interface 0 to 1
+RD: processing MPLS frame "00000000000000000003000H3MESSAGE_0_FROM_H1"
+RD: forwarding frame "N000H3MESSAGE_0_FROM_H1" from interface 1 to 2
+RD: processing MPLS frame "00000000000000000003000H3MESSAGE_0_FROM_H2"
+RD: forwarding frame "N000H3MESSAGE_0_FROM_H2" from interface 0 to 2
+RB: processing MPLS frame "00000000000000000002000H3MESSAGE_1_FROM_H1"
+RB: forwarding frame "M00000000000000000003000H3MESSAGE_1_FROM_H1" from interface 0 to 1
+Link RD-2 - H3-0: transmitting frame "N000H3MESSAGE_0_FROM_H1" on RD 2 -> H3 0 
+ - seconds until the next available time 0.367999
+ - queue size 1
+Link H1-0 - RA-1: transmitting frame "N000H3MESSAGE_2_FROM_H1" on H1 0 -> RA 1 
+ - seconds until the next available time 0.368000
+ - queue size 0
+Link H2-0 - RA-0: transmitting frame "N000H3MESSAGE_2_FROM_H2" on H2 0 -> RA 0 
+ - seconds until the next available time 0.367999
+ - queue size 0
+Link RD-2 - H3-0: transmitting frame "N000H3MESSAGE_0_FROM_H2" on RD 2 -> H3 0 
+ - seconds until the next available time 0.367999
+ - queue size 0
+Link RB-1 - RD-1: transmitting frame "M00000000000000000003000H3MESSAGE_1_FROM_H1" on RB 1 -> RD 1 
+ - seconds until the next available time 0.687999
+ - queue size 0
+Link RC-1 - RD-0: transmitting frame "M00000000000000000003000H3MESSAGE_1_FROM_H2" on RC 1 -> RD 0 
+ - seconds until the next available time 0.688000
+ - queue size 0
+RD: processing MPLS frame "00000000000000000003000H3MESSAGE_1_FROM_H2"
+RD: forwarding frame "N000H3MESSAGE_1_FROM_H2" from interface 0 to 2
+RD: processing MPLS frame "00000000000000000003000H3MESSAGE_1_FROM_H1"
+RD: forwarding frame "N000H3MESSAGE_1_FROM_H1" from interface 1 to 2
+H3: received packet "000H3MESSAGE_0_FROM_H1"
+H3: received packet "000H3MESSAGE_0_FROM_H2"
+RA: encapsulated packet "000H3MESSAGE_2_FROM_H1" as MPLS frame "00000000000000000001000H3MESSAGE_2_FROM_H1"
+RA: processing MPLS frame "00000000000000000001000H3MESSAGE_2_FROM_H1"
+RA: forwarding frame "M00000000000000000002000H3MESSAGE_2_FROM_H1" from interface 1 to 2
+RA: encapsulated packet "000H3MESSAGE_2_FROM_H2" as MPLS frame "00000000000000000001000H3MESSAGE_2_FROM_H2"
+RA: processing MPLS frame "00000000000000000001000H3MESSAGE_2_FROM_H2"
+RA: forwarding frame "M00000000000000000002000H3MESSAGE_2_FROM_H2" from interface 0 to 3
+Link RA-3 - RC-0: transmitting frame "M00000000000000000002000H3MESSAGE_2_FROM_H2" on RA 3 -> RC 0 
+ - seconds until the next available time 0.687997
+ - queue size 0
+Link RD-2 - H3-0: transmitting frame "N000H3MESSAGE_1_FROM_H2" on RD 2 -> H3 0 
+ - seconds until the next available time 0.368000
+ - queue size 1
+Link RA-2 - RB-0: transmitting frame "M00000000000000000002000H3MESSAGE_2_FROM_H1" on RA 2 -> RB 0 
+ - seconds until the next available time 0.687999
+ - queue size 0
+RC: processing MPLS frame "00000000000000000002000H3MESSAGE_2_FROM_H2"
+RC: forwarding frame "M00000000000000000003000H3MESSAGE_2_FROM_H2" from interface 0 to 1
+Link RC-1 - RD-0: transmitting frame "M00000000000000000003000H3MESSAGE_2_FROM_H2" on RC 1 -> RD 0 
+ - seconds until the next available time 0.687998
+ - queue size 0
+H3: received packet "000H3MESSAGE_1_FROM_H2"
+Link RD-2 - H3-0: transmitting frame "N000H3MESSAGE_1_FROM_H1" on RD 2 -> H3 0 
+ - seconds until the next available time 0.367999
+ - queue size 0
+RD: processing MPLS frame "00000000000000000003000H3MESSAGE_2_FROM_H2"
+RD: forwarding frame "N000H3MESSAGE_2_FROM_H2" from interface 0 to 2
+RB: processing MPLS frame "00000000000000000002000H3MESSAGE_2_FROM_H1"
+RB: forwarding frame "M00000000000000000003000H3MESSAGE_2_FROM_H1" from interface 0 to 1
+Link RB-1 - RD-1: transmitting frame "M00000000000000000003000H3MESSAGE_2_FROM_H1" on RB 1 -> RD 1 
+ - seconds until the next available time 0.687999
+ - queue size 0
+RD: processing MPLS frame "00000000000000000003000H3MESSAGE_2_FROM_H1"
+RD: forwarding frame "N000H3MESSAGE_2_FROM_H1" from interface 1 to 2
+H3: received packet "000H3MESSAGE_1_FROM_H1"
+Link RD-2 - H3-0: transmitting frame "N000H3MESSAGE_2_FROM_H2" on RD 2 -> H3 0 
+ - seconds until the next available time 0.367999
+ - queue size 1
+H3: received packet "000H3MESSAGE_2_FROM_H2"
+Link RD-2 - H3-0: transmitting frame "N000H3MESSAGE_2_FROM_H1" on RD 2 -> H3 0 
+ - seconds until the next available time 0.367996
+ - queue size 0
+H3: received packet "000H3MESSAGE_2_FROM_H1"
+RB: Ending
+H3: Ending
+RA: Ending
+RD: Ending
+H2: Ending
+Network: Ending
+RC: Ending
+H1: Ending
+All simulation threads joined

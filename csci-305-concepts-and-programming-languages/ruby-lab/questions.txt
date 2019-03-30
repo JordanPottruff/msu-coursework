@@ -1,0 +1,55 @@
+Your name
+CSCI-305
+
+10. There is a lot of cyclical use of the same phrase once a trigger word is
+activated. Most notably, the phrase "the world is a litter girl in..."
+is continually called if any word within it is used. This is rather common
+because of how popular "the", "a", and "is" are in song titles.
+
+14. Many titles follow patterns because a cycle is formed at some point in them.
+For example, if the word "my" is used at some point, and then a few mcw calls
+later it occurs it again, it is extremely likely that a cyclical pattern will
+be formed. The only time it is not is when either the pattern is larger than
+20 words or if the trigger word has two tied "most common words" following it.
+
+15. I had an extremely difficult time finding a song that terminates before
+20 characters. The only exception would be when a word is entered that has
+no occurences of a most common word following it. Examples of that involve
+rather uncommon song words like "dataset" or non-words like "sdasasd"
+(obviously).
+
+16. In order to solve repetition, I had to treat this issue in the same way
+as finding cycles in graphs. Therefore, the simple solution was to keep track
+of the words that were used as the title was being formed, and if a word came
+up twice it would not be used and the title would be finished.
+
+19. No, I do not always get the same value from "bob." Each call to bob leads
+to the word marley, but this word can branch out to both song, purt, me, etc.
+These words in turn branch out to other words. The title differs each time
+because of the randomization implemented in the mcw function which handles
+when there is a tie for the most common word after a word.
+
+20. "We are you" is a rather interesting result.
+
+21. I enjoy the syntax of loop/iteration structures like while or for loops.
+They are pretty hard to use at first because of my experience with Java and
+C, but they became really powerful once I became comfortable with them.
+
+22. I heavily dislike online resources for troubleshooting ruby. While Java
+has many drawbacks, its API feels substantially better than any ruby guide or
+manual I was able to find. Some keywords were especially hard to look up, and
+the flexibility of Ruby also makes it challenging to understand the meaning of
+code.
+
+23. I really enjoyed the end result, it was a really interesting project and
+inspired me to look into more projects involving big data. Some of the results
+were particularly funny or telling about syntax. I did think that some of the
+lab was challenging because it was neither covered in class nor easily found
+anywhere online (answers about how to detect non-standard characters like the
+upside down punctuations).
+
+24. I spent around 6 hours directly on the lab, with occasional research
+outside of that time about Ruby and regular expressions.
+
+25. I think I would use Ruby if I wanted to work with data or make a web crawler.
+Otherwise I might stick to Java/C++ or JavaScript. 

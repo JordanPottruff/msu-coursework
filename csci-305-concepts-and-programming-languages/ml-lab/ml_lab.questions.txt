@@ -1,0 +1,66 @@
+<firstname> <lastname>
+CSCI 305
+Spring 2018
+Lab Questions
+=======================
+1. The output of f [3,1,4,1,5,9] is [4, 2, 5, 2, 6, 10].
+
+2. The function f adds one to all the items in the list.
+
+3. I'm assuming the question meant "followed by" (* a *). If so, then
+the line "fun f [] = []" both defines the function, and handles the
+first pattern which matches an empty list and returns an empty list.
+
+4. Again, assuming the question meant "followed by". The line "| f
+(x::xs) = (x + 1) :: (f xs)" matches a list and stores the head of
+the list in x, and the tail of the list in xs. It then increments
+this head value, and uses the con operator to add the tail to the
+head after the tail has been recursively called on (which adds one
+to the items in the tail recursively).
+
+5. I get an error, as a list is passed as the second parameter instead of
+a set. If we were to convert the given list to a set and then pass it,
+it would still return false.
+
+6. My isMember function uses tail recursion, because it checks for
+equality of the first element before deciding whether to recursively
+do so with the rest of the set.
+
+7. My print statements seem to have a length limit, but after changing
+the print depth I got:
+
+Set("best", Set("times,", Set("it", Set("was", Set("the", Set("worst",
+Set("of", Set("times", Empty))))))))
+
+Or, a set containing best, times, , it, was, the, worst, of, times.
+
+Note that "times" at first looks repeated, but the first one has a comma.
+
+8. Tail recursion is when processing of the current item occurs before
+a recursive call is made to the next item. It would be beneficial because
+it doesn't require traversing to the deepest recursive call if an
+answer/return value can be found earlier.
+
+9. The set containing and, eggs, green, ham.
+
+10. The set containing and and macaroni.
+
+11. I enjoy how the simplistic nature of ML still lets it be a very powerful
+language. It was a really great introduction to functional programming.
+
+12. I dislike the very uninformative error messages and the constant warnings
+and other non-issues that pollute the command prompt when running programs. It
+also was very lacking in user guides and other helpful resources.
+
+13. I really enjoyed this lab. I think its really interesting to look at
+common problems and operations and approach them in a recursive, not iterative
+fashion. I also had a hard time before this lab imagining how functional
+languages could even be capable of complicated logic, but now it makes a lot
+more sense. I do wish the lab had done something a little more substantial by
+the end of it, like the Ruby Lab.
+
+14. I spent around 4 hours on the lab, not including the time reviewing lecture
+footage.
+
+15. I do not believe that I will use ML again, but I am more open now to
+learning a language like Pascal for fun projects to test my abilities.
