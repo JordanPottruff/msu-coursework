@@ -1,0 +1,27 @@
+--------------------
+INITIAL GRID:
+
+___O___
+_B__GY_
+___BR__
+___Y___
+_______
+__R____
+G___O__
+
+domain = [O, B, G, Y, R]
+size = 7x7
+--------------------
+SOLVED GRID:
+
+GGGOOOO
+GBGGGYO
+GBBBRYO
+GYYYRYO
+GYRRRYO
+GYRYYYO
+GYYYOOO
+
+runtime = 0.08 sec
+assignments = 406
+--------------------
