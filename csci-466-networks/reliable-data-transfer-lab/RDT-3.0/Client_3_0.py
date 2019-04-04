@@ -1,4 +1,5 @@
-import argparse
+import argparse, sys
+sys.path.append('../RDT-1.0')
 import RDT
 import time
 
