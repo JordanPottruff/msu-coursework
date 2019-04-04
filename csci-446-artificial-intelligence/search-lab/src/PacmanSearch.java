@@ -91,11 +91,13 @@ public class PacmanSearch {
         return cost;
     }
     
+    /**
+     * Run program by giving filenames as command arguments.
+     */
     public static void main(String[] args) throws Exception {
-        String[] mazeNames = {"open maze.txt", "medium maze.txt", "large maze.txt"};
         
         /** Demonstrate all search behaviors on each maze **/
-        for(String filename: mazeNames){
+        for(String filename: args){
             PacmanSearch pacmanSearch = new PacmanSearch(filename);
             
             //DFS
