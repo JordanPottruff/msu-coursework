@@ -1,0 +1,31 @@
+--------------------
+INITIAL GRID:
+
+D__BOK___
+__O__R___
+__RQ__Q__
+DB_______
+_G_______
+___P____G
+__Y___Y__
+______KP_
+_________
+
+domain = [D, B, O, K, R, Q, G, P, Y]
+size = 9x9
+--------------------
+SOLVED GRID:
+
+DBBBOKKKK
+DBOOORRRK
+DBRQQQQRK
+DBRRRRRRK
+GGKKKKKKK
+GKKPPPPPG
+GKYYYYYPG
+GKKKKKKPG
+GGGGGGGGG
+
+runtime = 0.649 sec
+assignments = 3080
+--------------------
